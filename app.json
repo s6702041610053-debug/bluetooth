@@ -49,13 +49,19 @@
             "peripheral",
             "central"
           ],
-          "bluetoothAlwaysPermission": "Allow this app to connect to BLE devices."
+          "bluetoothAlwaysPermission": "ขออนุญาตใช้อุปกรณ์บลูทูธเพื่อเชื่อมต่อเครื่องของอาจารย์"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "75a78a80-807c-4885-b45e-0e33ce027e67"
+      }
     }
   }
 }
